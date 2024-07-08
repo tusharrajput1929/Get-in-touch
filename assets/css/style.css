@@ -1,0 +1,244 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+section {
+    min-height: 100vh;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+
+.line {
+    max-width: 368px;
+    height: 2px;
+    border: 2px;
+    border: 2px solid #EBEAED
+}
+
+h2 {
+    color: #1E0E62;
+    font-family: "DM Sans", sans-serif;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0.4000000059604645px;
+    max-width: 362px;
+    height: 52px;
+    margin-bottom: 25px;
+}
+
+.para {
+    color: #15143966;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 355px;
+    height: 78px;
+    margin-bottom: 34.2px;
+
+}
+
+.para-1 {
+    color: #15143966;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 469px;
+    height: 26px;
+    margin-bottom: 34.8px;
+}
+
+.phone {
+    display: flex;
+    margin-bottom: 12px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #1E0E62;
+
+}
+
+.svg {
+    margin-right: 16px;
+}
+
+.gmail {
+    display: flex;
+    margin-bottom: 49px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #1E0E62;
+
+}
+
+h3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    color: #1E0E62;
+    max-width: 362px;
+    height: 32px;
+    margin-top: 44.5px;
+
+}
+
+.address {
+    color: #15143966;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 368px;
+    height: 26px;
+    margin-top: 11px;
+    margin-bottom: 36px;
+
+}
+
+h4 {
+    max-width: 62px;
+    height: 26px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+    color: #1E0E62;
+
+}
+
+.email {
+    max-width: 370px;
+    width: 100%;
+    height: 50px;
+    border-radius: 100px;
+    border: 2px solid #EBEAED;
+    padding: 24px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 37px;
+
+}
+
+.msg {
+    max-width: 370px;
+    width: 100%;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid #EBEAED;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 35px;
+    padding: 13px;
+    resize: none;
+
+}
+
+.name {
+    max-width: 270px;
+    width: 100%;
+    height: 50px;
+    border-radius: 100px;
+    border: 2px solid #EBEAED;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 24px;
+}
+
+.card-1 {
+    background-color: #F9F9FA;
+    padding: 50px;
+    max-width: 470px;
+    width: 100%;
+    height: 580px;
+    border-radius: 10px;
+}
+
+.btn {
+    max-width: 90px;
+    width: 100%;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #25DAC5;
+    border: none;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #FFFFFF;
+    cursor: pointer;
+
+
+
+}
+
+iframe {
+    max-width: 370px;
+    width: 100%;
+    height: 230px;
+    border-radius: 5px;
+
+}
+
+@media (max-width:992px) {
+    .col-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .btn {
+        margin-top: 10px;
+    }
+
+    .card-1 {
+        padding: 23px;
+        height: 540px;
+    }
+    .btn{
+        max-width: none;
+    }
+}
